@@ -29,10 +29,11 @@ namespace Excercises_7
                     int y = int.Parse(Console.ReadLine());
                     int z = int.Parse(Console.ReadLine());
                     Console.WriteLine($"Số lớn nhất trong 3 số là {MaxOfNums(x,y,z)}");
-                     Console.ReadLine();       
+                    Console.ReadLine();       
                     break;
                 case 2:
                     Console.WriteLine($"Số lớn nhất trong các số là {LargestNums(1,23,44,43,55,654)}");
+                    Console.ReadLine();
                     break;
                 case 3:
                     Console.WriteLine("Nhập số muốn tính giai thừa: ");
@@ -44,6 +45,7 @@ namespace Excercises_7
                         t = Console.ReadLine() ;
                     }
                     Console.WriteLine($"{so}! = {GiaiThua(so)}");
+                    Console.ReadLine();
                     break ;
                 case 4:
                     Console.WriteLine("Nhập số muốn tính giai thừa: ");
@@ -62,6 +64,7 @@ namespace Excercises_7
                     {
                         Console.WriteLine($"{n} không phải là số nguyên tố");
                     }
+                    Console.ReadLine();
                     break;
                 case 5:
                     Console.WriteLine("Nhập số ");
@@ -73,6 +76,7 @@ namespace Excercises_7
                         j = Console.ReadLine();
                     }
                     Console.WriteLine($"Các số nguyên tố bé hơn {h} là: "); SoNguyentoBe(h);
+                    Console.ReadLine();
                     break;
                 case 6:
                     Console.WriteLine("Nhập số lượng số nguyên tố");
@@ -84,6 +88,7 @@ namespace Excercises_7
                         g = Console.ReadLine(); 
                     }
                     Console.WriteLine($"{f} Số nguyên tố đầu tiên là "); NSoNguyentoDautien(f);
+                    Console.ReadLine();
                     break;
                 case 7:
                     Console.WriteLine("Nhập số");
@@ -102,6 +107,7 @@ namespace Excercises_7
                     {
                         Console.WriteLine($"{k} không phải là số hoàn hảo");
                     }
+                    Console.ReadLine();
                         break;
                 case 8:
                     Console.WriteLine("Số hoàn hảo bé hơn 1000 là:");
@@ -118,6 +124,7 @@ namespace Excercises_7
                     {
                         Console.WriteLine("Chuỗi của bạn không phải Pangram");
                     }
+                    Console.ReadLine();
                     break;
 
             }
@@ -240,3 +247,4 @@ namespace Excercises_7
         }
     }
 }
+
