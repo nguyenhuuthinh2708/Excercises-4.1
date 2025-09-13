@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -29,6 +29,7 @@ namespace Excercises_7
                     int y = int.Parse(Console.ReadLine());
                     int z = int.Parse(Console.ReadLine());
                     Console.WriteLine($"Số lớn nhất trong 3 số là {MaxOfNums(x,y,z)}");
+                     Console.ReadLine();       
                     break;
                 case 2:
                     Console.WriteLine($"Số lớn nhất trong các số là {LargestNums(1,23,44,43,55,654)}");
@@ -121,7 +122,6 @@ namespace Excercises_7
 
             }
             
-
         }
         //Bài 1.1: Tìm số lớn nhất trong ba số
         static int MaxOfNums(int a,int b, int c)
